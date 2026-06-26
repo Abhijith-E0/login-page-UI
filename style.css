@@ -94,10 +94,10 @@ button{
     background-color: rgba(255, 166, 0, 0.561);
     width:85%;
     margin-top:12px;
-
+    transition:.3s ease;
 }
 button:hover{
-    /* transform: scale(1.1); */
+     transform:translateY(-3px);
     font-size:14px;
     transition: .4s;
     background-color: orange;
