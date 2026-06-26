@@ -1,0 +1,135 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    overflow: auto;
+    background-color: rgba(31, 6, 6, 0.356);
+}
+
+.container{
+    width: 1150px;
+    margin:130px auto;
+    position: relative;
+    text-align: center;
+}
+
+img{
+    width: 1150px;
+    border-radius: 12px;
+}
+
+.login-card{
+    width: 540px;
+    height: 530px;
+    border-radius: 12px;
+    border: none;
+    /* background: #f2ebeb; */
+    background: linear-gradient(308deg,rgba(242, 235, 235, 0.21) 0%, rgba(245, 240, 240, 1) 73%);
+    position: absolute;
+    z-index: 10;
+    top:70px;
+    left:38px;
+}
+h1{
+    margin:17px 0 0 0;
+    color: rgb(111, 77, 7);
+}
+
+.head-logo{
+    width: 120px;
+    margin-bottom: 0;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin:0px auto 0px auto;
+}
+.input-box{
+    position: relative;
+    width:400px;
+    margin-left:40px;
+}
+
+input{
+    padding: 22px 30px;
+    width:100%;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid rgba(39, 148, 216, 0.597);
+    outline: none;
+    color: rgb(22, 20, 20);
+    font-size:18px ;
+}
+label{
+    position: absolute;
+    left:20px;
+    top:24px;
+    color: gray;
+    pointer-events: none;
+    transition: 0.3s;
+    border: none;
+    background-color:rgba(245, 240, 240, 1);
+    padding:0 5px ;
+}
+input:focus+label,
+input:valid+label{
+    top: -8px;
+    font-size: 16px;
+    color:  rgba(39, 148, 216, 0.696);
+}
+.forgot{
+   padding-left:340px;
+}
+.forgot:hover{
+    color: blue;
+    font-size: medium;
+}
+button{
+    padding:22px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-weight: bolder;
+    background-color: rgba(255, 166, 0, 0.561);
+    width:85%;
+    margin-top:12px;
+
+}
+button:hover{
+    /* transform: scale(1.1); */
+    font-size:14px;
+    transition: .4s;
+    background-color: orange;
+    cursor: pointer;
+}
+.google{
+    width:85%;
+    background-color: rgba(255, 255, 255, 0.522);
+    padding: 22px;
+    color: rgba(255, 0, 0, 0.838);
+    /* padding:18px; */
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    margin:12px auto;
+    text-align: left;
+    padding-left:60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.google-logo{
+    width:32px;
+    position: absolute;
+    left: 60px;
+    top:18px;
+}
+.google-flex{
+ position: relative;
+}
+.google:hover{
+    color: black;
+    background-color: aliceblue;
+    transition: .4s;
+    cursor: pointer;
+}
